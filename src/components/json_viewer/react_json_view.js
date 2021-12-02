@@ -53,7 +53,7 @@ class JsonView extends Component {
                     name={false}
                     collapsed={collapsed}
                     theme={'monokai'}
-                    style={{margin: '2%', fontSize: 16, borderRadius: '4px'}}
+                    style={{margin: '2%', fontSize: 16, borderRadius: '4px', width:'auto'}}
 
 
                     displayObjectSize={displayObjectSize}
