@@ -7,19 +7,12 @@ import './styles/App.css';
 function App() {
   
   return (
-    <div>
+    <div style={{height: '100vh', backgroundColor: 'rgb(39, 40, 34)'}}>
       <Header />
-
-    <div className="Content-padding" style={{paddingTop: '2%'}}>
       <div>
-      <div className="mdc-card"> 
-        <h1 className="Geneial-Title">HGSC Sample Data</h1>
-        <p className="Geneial-Body">testing a  test font to test if it will do what the test is supposed to do</p>
-        <JsonView />
-        </div>
-        </div>
-      
-    </div></div>
+      <JsonView/>
+      </div>
+    </div>
     
   );
 }

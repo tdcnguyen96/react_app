@@ -53,9 +53,7 @@ class JsonView extends Component {
                     name={false}
                     collapsed={collapsed}
                     theme={'monokai'}
-                    style={{margin: '2%', fontSize: 16, borderRadius: '4px', width:'auto'}}
-
-
+                    style={{ fontSize: 12, width:'auto', minWidth: '1400px',display: 'block', minHeight:'100vh'}}
                     displayObjectSize={displayObjectSize}
                     enableClipboard={enableClipboard}
                     indentWidth={indentWidth}
